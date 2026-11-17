@@ -8,3 +8,13 @@
 
 import random
 import turtle
+
+# ---------------- 설정값 ----------------
+WIDTH, HEIGHT = 600, 600      # 화면 크기
+LIMIT = 270                   # 거북이가 움직일 수 있는 범위 (-270 ~ 270)
+SPEED = 4                     # 한 프레임에 움직이는 거리
+START_OBSTACLES = 5           # 시작할 때 장애물 개수
+MAX_LIVES = 3                 # 목숨 개수
+HIT_DISTANCE = 20             # 이 거리 안으로 들어오면 닿은 것으로 판정
+SAFE_DISTANCE = 80            # 먹이/장애물이 플레이어 근처에 생기지 않게 하는 거리
+FRAME_MS = 20                 # 화면 갱신 간격(ms)
